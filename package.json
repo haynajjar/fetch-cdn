@@ -3,6 +3,7 @@
   "version": "0.1.1",
   "description": "Get web worker from cdn/remote origin",
   "main": "src/index.js",
+  "module": "src/index.js",
   "scripts": {
     "build": "pack build",
     "test": "echo \"no test specified yet\"",
