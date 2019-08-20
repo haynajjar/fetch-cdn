@@ -1,7 +1,7 @@
 {
   "name": "fetch-cdn",
   "description": "Get web worker from cdn/remote origin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "files": [
     "dist-*/",
@@ -16,8 +16,10 @@
   ],
   "dependencies": {},
   "devDependencies": {
+    "@pika/plugin-build-web": "^0.6.0",
     "@pika/plugin-standard-pkg": "^0.6.0",
     "@pika/types": "^0.6.0"
   },
-  "esnext": "dist-src/index.js"
+  "esnext": "dist-src/index.js",
+  "module": "dist-web/index.js"
 }

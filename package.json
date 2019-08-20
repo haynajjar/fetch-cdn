@@ -13,7 +13,8 @@
     "pipeline": [
       [
         "@pika/plugin-standard-pkg"
-      ]
+      ],
+      ["@pika/plugin-build-web"]
     ]
   },
   "keywords": [
@@ -24,6 +25,7 @@
   "author": "Abdelhay Najjar",
   "license": "MIT",
   "devDependencies": {
+    "@pika/plugin-build-web": "^0.6.0",
     "@pika/plugin-standard-pkg": "^0.6.0",
     "@pika/types": "^0.6.0"
   },
