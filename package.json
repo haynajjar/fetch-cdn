@@ -1,0 +1,30 @@
+{
+  "name": "fetch-cdn",
+  "version": "0.0.1",
+  "description": "Get web worker from cdn/remote origin",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "pack build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "npm run build"
+  },
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-standard-pkg"
+      ]
+    ]
+  },
+  "keywords": [
+    "web",
+    "worker",
+    "cdn"
+  ],
+  "author": "Abdelhay Najjar",
+  "license": "MIT",
+  "devDependencies": {
+    "@pika/plugin-standard-pkg": "^0.6.0",
+    "@pika/types": "^0.6.0"
+  },
+  "dependencies": {}
+}
