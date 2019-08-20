@@ -9,6 +9,10 @@
     "test": "echo \"no test specified yet\"",
     "version": "npm run build"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/haynajjar/fetch-cdn"
+  },
   "@pika/pack": {
     "pipeline": [
       [
